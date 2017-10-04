@@ -1,0 +1,6 @@
+<view class="content">
+  <view class='search'>
+    <input class='input' bindinput='bindKeyInput'></input>
+    <button bindtap='search' ho>查询</button>
+  </view>
+</view>

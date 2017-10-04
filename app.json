@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/tuijian/tuijian",
+    "pages/search/search"
+  ],
+  "tabBar": {
+    "color":"#DDD",
+    "selectedColor": "#3cc51f",
+    "backgroundColor":"#2b2b2b",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "iconPath":"assets/img/dy-1.png",
+        "selectedIconPath": "assets/img/dy.png",
+        "text": "影院热映"
+      },
+      {
+        "pagePath": "pages/tuijian/tuijian",
+        "iconPath": "assets/img/tj-1.png",
+        "selectedIconPath": "assets/img/tj.png",
+        "text": "影院推荐"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "assets/img/search-1.png",
+        "selectedIconPath": "assets/img/search.png",
+        "text": "影院查询"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "刘教主的影院",
+    "navigationBarTextStyle":"black"
+  }
+}
